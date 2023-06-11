@@ -9,6 +9,5 @@ def recommendation(user_id: str):
     id = int(user_id)
     scores, titles = loaded([id])
     cek = titles[0][:20]
-    print(cek)
     return titles.numpy().tolist()
     
