@@ -2,8 +2,7 @@
 
 ## Endpoint
 
-`https://xxxx/api/v1/{prefix}/{param}`
-
+`https://moru-ml-api-inq7f5uz7q-et.a.run.app/v1/{prefix}/{param}`
 ## Books
 
 ### Recommendation Content Based
@@ -78,11 +77,27 @@
     ]
 }
 ```
+### Retrain
+
+- URL
+  - `/books/retrain"`
+- Method
+  - `GET`
+- Response
+
+```
+{
+    "message": "New Model Sucessfully Generated",
+    "status": 200,
+    "error": false
+}
+```
+
 
 ## Sports
 
 - URL
-  - `/sports/recommendation_content/{judul}"`
+  - `/sport/recommendation_content/{judul}"`
 - Method
   - `POST`
 - Parameter:
