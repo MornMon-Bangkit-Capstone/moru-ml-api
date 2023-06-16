@@ -1,5 +1,21 @@
 # API
 
+## Installation
+
+Install with pip:
+
+```
+$ pip install -r requirements.txt
+```
+
+## Run Flask
+
+### Run flask for develop
+
+```
+$ python3 main.py
+```
+
 ## Endpoint
 
 `https://moru-ml-api-inq7f5uz7q-et.a.run.app/v1/{prefix}/{param}`
